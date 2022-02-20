@@ -1,0 +1,150 @@
+Here we "Hover-master" which adds animation to buttons and icons.
+First of all we have to add link in head tag for the "hover-master" folder. 
+The method to add animation is: 
+1 - Find the animation you want ot add to lets a button. Find its name(use this link: https://ianlunn.github.io/Hover/) and then add class of "hvr-animation-name".
+    For example "hvr-round-corners" will make the cornors of button round. But we have to design it first. Lets consider we added a link in 
+    html(<a href="#" class=" del hvr-round-corners">DELETE</a>) and then we added style in css
+(.del{
+  color: #fff;
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+}). Then the shape we have designed will have round corners on hovering it and we won't have to add :hover effect by ourself.
+
+2 - If we want to add animation to a icon on hover(spin, size-increase) then we can use "hover-master" animations. Find the animation you want ot add to lets 
+    . Find its name(use this link: https://ianlunn.github.io/Hover/) and then add class of "hvr-animation-name".
+    For example "hvr-icon-spin" will make the icon spin. Lets consider we added a link in backend of icon
+    html and we have to add the animation name as the class of link(parent element) and then add extra("hvr-icon") as the extra class of icon so that 
+    animator can recognize the icon we want to animate.(
+      <a href="https://www.instagram.com/im__ts/" 
+        target="_blank" class="hvr-icon-spin">
+        <i class="fab fa-instagram hvr-icon"></i>
+      </a>
+)
+
+
+
+  margin: 10px;
+  padding: 10px;
+}). Then the shape we have designed will have round corners on hovering it and we won't have to add :hover effect by ourself.
+
+//////////////////////////////////////CLASSES TO BE ADDED/////////////////////////
+hvr-grow
+hvr-shrink
+hvr-pulse
+hvr-pulse-grow
+hvr-pulse-shrink
+hvr-push
+hvr-pop
+hvr-bounce-in
+hvr-bounce-out
+hvr-rotate
+hvr-grow-rotate
+hvr-float
+hvr-sink
+hvr-bob
+hvr-bob-float
+hvr-hang
+hvr-hang-sink
+hvr-skew
+hvr-skew-forward
+hvr-skew-backward
+hvr-wobble-vertical
+hvr-wobble-horizontal
+hvr-wobble-to-bottom-right
+hvr-wobble-to-top-right
+hvr-wobble-top
+hvr-wobble-bottom
+hvr-wobble-skew
+hvr-wobble-skew
+hvr-buzz
+hvr-buzz-out
+hvr-forward
+hvr-backward
+hvr-fade
+hvr-back-pulse
+hvr-sweep-to-right
+hvr-sweep-to-left
+hvr-sweep-to-bottom
+hvr-sweep-to-top
+hvr-bounce-to-right
+hvr-bounce-to-left
+hvr-bounce-to-bottom
+hvr-bounce-to-top
+hvr-radial-out
+hvr-radial-in
+hvr-rectangle-in
+hvr-rectangle-out
+hvr-shutter-in-horizontal
+hvr-shutter-out-horizontal
+hvr-shutter-in-vertical
+hvr-shutter-out-vertical
+hvr-border-fade
+hvr-hollow
+hvr-trim
+hvr-ripple-out
+hvr-ripple-in
+hvr-outline-out
+hvr-outline-in
+hvr-round-corners
+hvr-underline-from-left
+hvr-underline-from-center
+hvr-underline-from-right
+hvr-overline-from-left
+hvr-overline-from-center
+hvr-overline-from-right
+hvr-reveal
+hvr-underline-reveal
+hvr-overline-reveal
+hvr-glow
+hvr-shadow
+hvr-grow-shadow
+hvr-box-shadow-outset
+hvr-box-shadow-inset
+hvr-float-shadow
+hvr-shadow-radial
+hvr-bubble-top
+hvr-bubble-right
+hvr-bubble-bottom
+hvr-bubble-left
+hvr-bubble-float-top
+hvr-bubble-float-right
+hvr-bubble-float-bottom
+hvr-bubble-float-left
+///////////////////////////////////HOVER ANIMATIONS FOR ICONS///////////////////
+hvr-icon-back
+hvr-icon-back
+hvr-icon-forward
+hvr-icon-down
+hvr-icon-up
+hvr-icon-spin
+hvr-icon-drop
+hvr-icon-fade
+hvr-icon-float-away
+hvr-icon-sink-away
+hvr-icon-grow
+hvr-icon-shrink
+hvr-icon-pulse
+hvr-icon-pulse-grow
+hvr-icon-pulse-shrink
+hvr-icon-push
+hvr-icon-pop
+hvr-icon-bounce
+hvr-icon-rotate
+hvr-icon-grow-rotate
+hvr-icon-float
+hvr-icon-sink
+hvr-icon-bob
+hvr-icon-bob-float
+hvr-icon-bob
+hvr-icon-hang
+hvr-icon-hang-sink
+hvr-icon-hang
+hvr-icon-wobble-horizontal
+hvr-icon-wobble-vertical
+hvr-icon-buzz
+hvr-icon-buzz-out
+hvr-curl-top-left
+hvr-curl-top-right
+hvr-curl-bottom-right
+hvr-curl-bottom-left

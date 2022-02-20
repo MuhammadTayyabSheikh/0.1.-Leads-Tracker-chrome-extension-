@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #b8c6db;
+	background-image: linear-gradient(315deg, #779795 0%, #94daff 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	min-height: 100vh;
+	min-width: 500px;
+	border-radius: 100px;
+}
+
+#input-el {
+	display: block;
+	width: 100%;
+	line-height: 2;
+	margin-left: 3px;
+	margin-right: 6px;
+	padding-left: 7px;
+	font-size: 1.1rem;
+	border: 1px solid #5f9340;
+	border-radius: 5px;
+}
+
+button {
+	background-color: #5f9340;
+	border: none;
+	color: white;
+	font-weight: bold;
+	width: 120px;
+	margin-left: 3px;
+	margin-top: 4px;
+	padding: 0.8rem;
+	text-align: center;
+	border-radius: 5px;
+	max-width: 3000px;
+	min-height: 42px;
+}
+
+#delete-btn {
+	background-color: rgb(235, 227, 227);
+	border: solid;
+	color: #5f9340;
+}
+
+button:hover {
+	background-color: #3d9709;
+}
+
+button:focus {
+	background-color: #066a09;
+}
+
+#delete-btn:hover {
+	background-color: #3d9709;
+	color: white;
+	border: none;
+	font-weight: bold;
+}
+
+ul {
+	padding-left: 0;
+	align-items: left;
+	align-content: left;
+	justify-content: flex-start;
+}
+
+ul li {
+	list-style-type: none;
+	font-size: 1.2rem;
+	margin: 0.5rem 0;
+}
+
+ul li label {
+	cursor: pointer;
+}
+
+ul li a {
+	color: #3d9709;
+}
